@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".help">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="HELP"
+        android:textColor="#DD2B67"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-condensed-medium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:text="This app mostly deals with the scanning related thing.Few of the options provided are :\n 1.)scan and search:- Here you can scan a particular qr-code or barcode and  and you can even search it on internet to know more about the code.\n
+        2.)Scan and Bill:- This can used in supermarket,through this you can scan each product you are buying on your own and at the end you get the total amount or the bill.The condition is that barcode on products must be special of supermarket where on name and price of the product are present.\n
+3.)Document Scan:-You can scan any kind of document and store it in pdf format in your memory.\n
+4.)Scan and store:- Here you can record or store each scanning as it can be needed for any purpose.\n
+5.)Scan from Gallery:-In this you can scan any document or crop any image from your gallery or mobile storage."
+        android:textColor="#576ADF"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed-medium" />
+    </RelativeLayout>
+</ScrollView>

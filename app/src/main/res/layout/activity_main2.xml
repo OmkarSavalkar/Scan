@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/back">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17pt"
+        android:text="AllScans"
+        android:textColor="#4EC2F5"
+        android:textSize="28sp"
+        app:fontFamily="@font/aclonica" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15pt"
+        android:padding="5pt"
+        android:text="This app provides all types of scans of barcodes, Qr-codes and as well as documents.It can scan barcodes on product containing price in mall or super-markets and calculates the total cost which can be forwarded to billing counters using this time to wait in queue can be saved.This app can also be used for normal scanning of barcodes and searcing it on Google.It can also perform Document to PDF conversion."
+        android:textColor="#C4F5FC"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:fontFamily="monospace" />
+
+    <!--<Button
+        android:id="@+id/loginbt"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23pt"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/registerbt"
+        android:layout_width="301dp"
+        android:layout_height="43dp"
+        android:layout_below="@id/loginbt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12pt"
+        android:background="@drawable/custom_button"
+        android:onClick="registerclick"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/skipbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="136pt"
+        android:layout_marginTop="16pt"
+        android:onClick="skipclick"
+        android:text="Skip"
+        android:textColor="#E4F1FC"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:fontFamily="monospace" />
+</RelativeLayout>

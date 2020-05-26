@@ -39,7 +39,6 @@ public class scanstore extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         dbase=new Dbase(this);
-
         arrayList=dbase.getinformation();
 
         if (arrayList.size()>0)

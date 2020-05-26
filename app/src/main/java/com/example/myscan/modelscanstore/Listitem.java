@@ -11,7 +11,6 @@ public class Listitem
         this.code = code;
         this.type = type;
     }
-
     public int getId() {
         return id;
     }

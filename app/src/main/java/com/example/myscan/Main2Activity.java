@@ -26,7 +26,6 @@ public class Main2Activity extends AppCompatActivity{
         /*logbt=findViewById(R.id.loginbt);
         regbt=findViewById(R.id.registerbt);*/
         skipbt=findViewById(R.id.skipbut);
-
     }
 
    /* @Override

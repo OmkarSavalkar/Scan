@@ -37,6 +37,7 @@ public class qrcode extends AppCompatActivity {
         iv=findViewById(R.id.qrcode);
         et=findViewById(R.id.text);
         start=findViewById(R.id.but);
+
     }
 
     public void button(View view)

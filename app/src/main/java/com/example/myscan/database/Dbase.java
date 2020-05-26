@@ -26,6 +26,7 @@ public class Dbase extends SQLiteOpenHelper
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL("CREATE TABLE "+tname+"(id INTEGER PRIMARY KEY AUTOINCREMENT, code TEXT,type TEXT)");
+
     }
 
     @Override

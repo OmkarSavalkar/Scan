@@ -58,6 +58,8 @@ public class Myadapter extends RecyclerView.Adapter<Myadapter.MyAdapterViewHolde
             textviewcode = itemView.findViewById(R.id.Textviewcode);
             textviewtype=itemView.findViewById(R.id.textviewtype);
             cardView=itemView.findViewById(R.id.listitemcardview);
+
+
         }
     }
 

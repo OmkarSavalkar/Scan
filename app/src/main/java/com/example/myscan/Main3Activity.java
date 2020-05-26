@@ -89,6 +89,5 @@ public class Main3Activity extends AppCompatActivity implements ZXingScannerView
         });
         AlertDialog alertDialog=alertdialogbuilder.create();
         alertDialog.show();
-
     }
 }

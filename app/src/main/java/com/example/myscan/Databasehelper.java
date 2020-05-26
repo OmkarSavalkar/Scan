@@ -62,6 +62,7 @@ public class Databasehelper extends SQLiteOpenHelper {
 
                 Listitem listitem=new Listitem(id,productname,price);
                 arraylist.add(listitem);
+
             }
         }
         cursor.close();
